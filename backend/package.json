@@ -1,0 +1,13 @@
+{
+       "name": "electron-app-backend",
+       "version": "1.0.0",
+       "description": "Backend for Electron App",
+       "main": "server.mjs", 
+       "type": "module", 
+       "scripts": {
+         "start": "node server.mjs" 
+       },
+       "dependencies": {
+         "node-fetch": "^3.0.0"
+       }
+     }

@@ -1,0 +1,31 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Filters</h1>
+  <label for="toDate">To Date:</label>
+  <input type="date" id="toDate"><br><br>
+  
+  <label for="fromDate">From Date:</label>
+  <input type="date" id="fromDate"><br><br>
+  
+  <label for="business">Business:</label>
+  <input type="text" id="business"><br><br>
+  
+  <label for="supplier">Supplier:</label>
+  <input type="text" id="supplier"><br><br>
+  
+  <label for="outlet">Outlet:</label>
+  <input type="text" id="outlet"><br><br>
+  
+  <button id="applyFiltersBtn">Apply Filters</button>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

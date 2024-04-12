@@ -1,0 +1,11 @@
+{
+       "name": "electron-app-frontend",
+       "version": "1.0.0",
+       "description": "Frontend for Electron App",
+       "main": "renderer.js",
+       "scripts": {
+         "start": "electron ."
+       },
+       "dependencies": {}
+}
+     
